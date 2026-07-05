@@ -1,0 +1,33 @@
+1. B. Un sistema que permite almacenar y consultar información estructurada.
+
+2. A. Crear, leer, actualizar y eliminar datos.
+
+3. B. Identificar usuarios y controlar quién puede acceder a ciertas funciones.
+
+4. B. Para evitar riesgos de privacidad o uso indebido de la información.
+Campos principales:
+- id
+- titulo
+- descripcion
+- fecha
+
+Propósito:
+Guardar las causas comunitarias que serán visibles en la plataforma.
+
+
+Entidad: Apoyo
+
+Campos principales:
+- id
+- causa_id
+- usuario
+- fecha
+
+Propósito:
+Registrar los apoyos que recibe cada causa para hacer seguimiento a la participación.
+El login permite identificar a un usuario antes de darle acceso a las funciones de la aplicación. Algunas rutas deben estar protegidas porque contienen información privada o permiten realizar acciones importantes. Solo los usuarios autorizados deben acceder a esos recursos. No se deben mostrar públicamente contraseñas, documentos de identidad, teléfonos, direcciones ni datos personales. También es importante proteger los tokens y las claves de acceso para mantener segura la información de la comunidad.
+
+Una plataforma de participación ciudadana necesita una base de datos para almacenar la información de forma organizada y segura. La autenticación permite identificar a los usuarios y controlar quién puede acceder a determinadas funciones. Esto ayuda a proteger la información y evita accesos no autorizados. La protección de datos es fundamental para respetar la privacidad de las personas. También genera confianza entre los usuarios de la plataforma. Una buena organización de la información facilita el seguimiento de las causas comunitarias. Además, mejora la transparencia y la participación. Por estas razones, la base de datos, la autenticación y la seguridad son elementos esenciales en cualquier plataforma comunitaria.
+git add .
+git commit -m "Actividad semana 11"
+git push
